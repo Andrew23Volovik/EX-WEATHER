@@ -1,0 +1,22 @@
+/* theme color */
+$--color-white: #fff !default;
+$--color-black: #000 !default;
+
+$--color-primary: #ffb140 !default;
+
+$--color-text-primary: #343434 !default;
+$--color-text-regular: #343434 !default;
+$--color-text-secondary: #20a39e !default;
+$--color-text-placeholder: #343434 !default;
+
+$--background-color-base: #f3f7f5 !default;
+
+$--border-color-base: #ceded6 !default;
+$--border-color-light: #dae7e0 !default;
+$--border-color-lighter: #e6efea !default;
+$--border-color-extra-light: #f3f7f5 !default;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import '~element-ui/packages/theme-chalk/src/index';
